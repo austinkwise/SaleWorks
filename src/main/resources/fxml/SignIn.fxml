@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="main.SignInController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="114.0" prefWidth="500.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="427.0" text="            SaleWorks" textAlignment="CENTER" />
+                  <Button mnemonicParsing="false" text="Sign Up" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="54.0" prefWidth="500.0">
+               <children>
+                  <Label text="Username: " />
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="115.0" prefHeight="54.0" prefWidth="500.0">
+               <children>
+                  <Label text="Password: " />
+                  <PasswordField />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="178.0" prefHeight="54.0" prefWidth="500.0">
+               <children>
+                  <Button mnemonicParsing="false" style="-fx-background-color: white;" text="Forgot Password?">
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Sign In" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
